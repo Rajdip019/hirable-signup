@@ -1,0 +1,126 @@
+.demoSignup {
+    position: relative;
+    width: 93%;
+    display: flex;
+    margin: 20px auto;
+    /* overflow-x: hidden; */
+}
+
+.demoSignup__info, .demoSignup__form {
+    margin-top: 50px;
+}
+
+@media (max-width: 1400px) {
+    .demoSignup {
+        width: 97%;
+        margin: 20px auto;
+    }   
+}
+
+
+@media (max-width: 1350px) {
+    .demoSignup {
+        width: 100%;
+        margin: 20px auto;
+    }   
+}
+
+@media (max-width: 1290px) {
+    .demoSignup {
+        width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 1024px){
+    .demoSignup {
+        width: 60%;
+        margin: auto;
+        display: block;
+        position: relative;
+    }
+
+    .demoSignup__form {
+        width: 87%;
+        margin-top: 50px;
+        position: absolute;
+        top: 7%;
+    }
+}
+
+@media (max-width: 950px) {
+    .demoSignup {
+        overflow-x: hidden !important;
+        width: 60%;
+        margin: auto;
+        display: block;
+        position: relative;
+    }
+
+    .demoSignup__form {
+        width: 85%;
+        top: 10%;
+    }
+}
+
+@media (max-width: 683px) {
+    .demoSignup__form {
+        top: 7%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .demoSignup__form {
+        width: 83%;
+        top: 9.5%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .demoSignup {
+        width: 80%;
+    }
+
+    .demoSignup__form {
+        width: 80%;
+        top: 10.5%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .demoSignup {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .demoSignup__form {
+        width: 100%;
+        top: 10.5%;
+        margin: 0px auto;
+    }
+
+    .demoSignup__info {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .demoSignup__form {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .demoSignup__form {
+        top: 12%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .demoSignup__form {
+        top: 15.5%;
+    }
+}
